@@ -1,0 +1,161 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+  }
+  
+  nav {
+    background-color: black;
+    height: 43px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+   
+  }
+
+ 
+  
+  nav ul li a {
+    font-size: 14px;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Golos Text', sans-serif;
+    
+  }
+  
+  .analysis {
+    color: rgb(255, 255, 41);
+  }
+
+  .grid-container {
+   
+   
+    padding-left: 8px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+    background-color: rgb(229, 229, 229);
+    margin-left: 14%;
+    margin-right: 14%;
+    
+  }
+
+  .grid-item {
+    font-family: 'Almarai', sans-serif;
+    font-weight: bold;
+    
+  }
+
+  .flex-container {
+    display: flex;
+    margin-left: 11%;
+    margin-right: 13%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .flex-item h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-bottom: -15px;
+   
+   
+  }
+
+  .flex-item h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+  
+  }
+
+  .flex-item p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(127, 125, 125);
+  }
+
+  .flex-item h1 span {
+    color: rgb(55, 156, 55);
+  }
+  .flex-item h2 span {
+    color: rgb(55, 156, 55);
+  }
+
+  #last {
+    margin-top: -18px;
+  }
+
+  .my-button {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  #btn-1 {
+    background-color: rgb(17, 139, 17);
+    color: white;
+  }
+
+  #btn-2 {
+    background-color: rgb(224, 242, 249);
+    color: rgb(24, 145, 24);
+    margin-left: 17px;
+    font-weight: 900;
+  }
+
+  .icon-row {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.icon img {
+  width: 25px;
+  height: 25px;
+  align-items: baseline;
+ 
+}
+
+.icon p {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#im2 {
+  width: 35px;
+  height: 35px;
+}
+#profile-pic {
+  height: 558px;
+  width: 558px;
+}
+
+#imgdiv {
+  margin-top: -100px;
+  margin-right: -120px;
+  z-index: -1;
+}
